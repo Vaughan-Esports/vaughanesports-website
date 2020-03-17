@@ -11,3 +11,7 @@ hr {
   background-color: #707070;
   border: none;
 }
+
+#copyright {
+  margin-bottom: inherit
+}
