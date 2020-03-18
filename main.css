@@ -29,3 +29,13 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+#parallax-image-2 {
+  background-image: url(./assets/banner.png);
+  height: 600px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
