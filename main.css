@@ -22,7 +22,7 @@ hr {
 
 #parallax-image {
   background-image: url(./assets/banner.png);
-  height: 1440px;
+  height: 1000px;
   margin-bottom: 50px;
   background-attachment: fixed;
   background-position: center;
