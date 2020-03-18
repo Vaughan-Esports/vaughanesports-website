@@ -19,3 +19,13 @@ hr {
 #quick-links {
   font-size: 20px;
 }
+
+#parallax-image {
+  background-image: url(./assets/banner.png);
+  height: 1440px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
