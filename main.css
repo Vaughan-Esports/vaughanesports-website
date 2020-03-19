@@ -1,5 +1,41 @@
-body {
-  background: url(assets/background.jpg);
+#navbarNav {
+  font-size: 22px;
+}
+
+#footer {
+  background-color: #484F55;
+}
+
+hr {
+  height: 2px;
+  background-color: #707070;
+  border: none;
+}
+
+#copyright {
+  margin-bottom: inherit
+}
+
+#quick-links {
+  font-size: 20px;
+}
+
+#parallax-image {
+  background-image: url(./assets/banner.png);
+  height: 1080px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-repeat;
+}
+
+#parallax-image-2 {
+  background-image: url(./assets/banner.png);
+  height: 700px;
+  margin-bottom: 50px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
