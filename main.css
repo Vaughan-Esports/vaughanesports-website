@@ -40,25 +40,12 @@ hr {
   background-size: cover;
 }
 
-
 @media (hover: none) {
   #parallax-image {
-    background-image: url(./assets/banner.png);
-    height: 1080px;
-    margin-bottom: 50px;
     background-attachment: initial;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
    }
 
  #parallax-image-2 {
-   background-image: url(./assets/banner.png);
-   height: 700px;
-   margin-bottom: 50px;
    background-attachment: initial;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
  }
 }
