@@ -40,11 +40,9 @@ hr {
   background-size: cover;
 }
 
-/* ===== Style for smartphone and iPad in portrait & landscape== =  */
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px)  {
-.sp-page-builder .page-content #noparallax {
-    background-attachment: unset !important;
-    background-position: center top !important; }
+
+@media (hover: none) {
+   .homeHero {
+       background-attachment: initial;
+   }
 }
