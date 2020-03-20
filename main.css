@@ -39,3 +39,13 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+@media (hover: none) {
+  #parallax-image {
+    background-attachment: initial;
+   }
+
+ #parallax-image-2 {
+   background-attachment: initial;
+ }
+}
