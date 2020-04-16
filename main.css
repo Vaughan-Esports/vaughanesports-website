@@ -52,4 +52,8 @@ hr {
  #parallax-image-2 {
    background-attachment: initial;
  }
+
+ #footer {
+   text-align: center;
+ }
 }
