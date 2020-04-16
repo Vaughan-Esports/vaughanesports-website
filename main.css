@@ -12,8 +12,15 @@ hr {
   margin-top: 2em;
 }
 
-#past-events {
+#past-events,
+#contact-box {
   background-color: #484F55;
+}
+
+#suggestion-box,
+#contact-box h1,
+#contact-box p {
+  margin-bottom: 0px;
 }
 
 #copyright {
