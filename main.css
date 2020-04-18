@@ -12,7 +12,9 @@ hr {
 
 #contact-page,
 #upcoming-events,
-#index-page {
+#index-page,
+#past-events,
+#contact-box {
   background-color: #484f55;
 }
 
@@ -22,11 +24,6 @@ hr {
 
 #footer {
   padding-top: 2em;
-}
-
-#past-events,
-#contact-box {
-  background-color: #484F55;
 }
 
 #suggestion-box,
