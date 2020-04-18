@@ -58,6 +58,27 @@ hr {
   background-size: cover;
 }
 
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #94979b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFFFFF;
+}
+
 @media (hover: none) {
   #parallax-image {
     background-attachment: initial;
