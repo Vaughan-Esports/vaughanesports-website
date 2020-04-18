@@ -71,4 +71,12 @@ hr {
    text-align: center;
    margin-top: 5em;
  }
+
+ #footer h3 {
+   margin-top: 2em;
+ }
+ #footer iframe {
+   margin-top: 2em;
+   height: 500px;
+ }
 }
