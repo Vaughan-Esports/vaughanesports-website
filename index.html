@@ -1,60 +1,213 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-TDJ4Q8S');</script>
-    <!-- End Google Tag Manager -->
+<head>
+  <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TDJ4Q8S');</script>
+  <!-- End Google Tag Manager -->
 
-    <!-- Meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Vaughan Esports is a friendly and opening community that regularly host tournaments and game nights to help members connect with eachother." />
+  <!-- Meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Vaughan Esports is a friendly and opening community that regularly host tournaments and game nights to help members connect with eachother." />
 
-    <!-- Open Graph Meta Tags for Discord Embed -->
-    <meta property="og:site_name" content="Vaughan Esports" />
-    <meta property="og:title" content="Vaughan Esports" />
-    <meta property="og:description" content="Vaughan Esports is a friendly and opening community that regularly host tournaments and game nights to help members connect with eachother." />
-    <meta property="og:image" content="assets/Vaughan Esports Logo Footer.png" />
+  <!-- Open Graph Meta Tags for Discord Embed -->
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Vaughan Esports" />
+  <meta property="og:title" content="Vaughan Esports | Home" />
+  <meta property="og:description" content="Vaughan Esports is a friendly and opening community that regularly host tournaments and game nights to help members connect with eachother." />
+  <meta property="og:image" content="https://vaughanesports.org/assets/Vaughan%20Esports%20Logo%20Footer.png" />
+  <meta property="og:url" content="https://vaughanesports.org" />
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="assets/favicon.ico">
-    <link rel="apple-touch-icon" href="assets/Vaughan Esports Logo.png">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" href="assets/Vaughan Esports Logo.png">
 
-    <!-- Main CSS Document -->
-    <link rel="stylesheet" href="main.css" type="text/css">
+  <!-- Main CSS Document -->
+  <link rel="stylesheet" href="main.css" type="text/css">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Vaughan Esports</title>
-  </head>
-  <body class="bg-dark">
-    <!-- Google Tag Manager (noscript) -->
-      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TDJ4Q8S"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
+  <!-- Navbar Script -->
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
 
+  <script type="text/javascript">
+  (function($) {
+      $(document).ready(function(){
+        $('#menu').fadeOut(0);
+          $(window).scroll(function(){
+              if ($(this).scrollTop() > 300) {
+                  $('#menu').fadeIn(300);
+              } else {
+                  $('#menu').fadeOut(300);
+              }
+          });
+      });
+  })(jQuery);
+  </script>
+
+  <title>Vaughan Esports | Home</title>
+</head>
+  <body class="bg-dark" id="index-page">
+
+    <!-- Fixed Navbar -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top" id="menu">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/Vaughan Esports Logo.png" height="35" class="d-inline-block align-top" alt="Vaughan Esports Logo"> Vaughan Esports
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <li class="nav-item">
+              <a class="nav-link mr-5" href="events.html">Events</a>
+            </li>
+            <a class="nav-link mr-5" href="https://www.notion.so/49dcbc3310d24865be720dc742eef2e7?v=1b336bec51e240d29c31a83fd7317532">Rules</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mr-5" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Parallax Section 1 -->
     <div id="parallax-image">
       <div class="container text-light text-center">
         <img src="assets/Logo with Text.png" class="img-fluid pt-5 mt-5" alt="Vaughan Esports Logo"/>
       </div>
       <div class="container text-center text-light pt-5 mt-5">
-        <div class="row pt-5 mt-5">
-          <div class="col-sm pt-5 mt-5">
+        <div class="row pt-5">
+          <div class="col-sm pt-5">
             <a href="https://www.youtube.com/channel/UC6b9XYgwZrmA28pE6BtMJxQ" target="_blank">
-              <img src="assets/yt.png" class="img-fluid" alt="Youtube Logo">
+              <img src="assets/yt-small.png" class="img-fluid" alt="Vaughan Esports Youtube Channel">
             </a>
             <a class="text-light" href="https://www.youtube.com/channel/UC6b9XYgwZrmA28pE6BtMJxQ" target="_blank">
               <h2>Vaughan Esports</h2>
             </a>
           </div>
-          <div class="col-sm pt-5 mt-5">
+          <div class="col-sm pt-5">
             <a href="https://twitch.tv/vaughanesports" target="_blank">
-              <img src="assets/twitchGlitchWhite-small.png" class="img-fluid" alt="Twitch Logo">
+              <img src="assets/twitchGlitchWhite-small.png" class="img-fluid" alt="Vaughan Esports Twitch Channel">
+            </a>
+            <a class="text-light" href="https://www.youtube.com/channel/UC6b9XYgwZrmA28pE6BtMJxQ" target="_blank">
+              <h2>vaughanesports</h2>
+            </a>
+          </div>
+          <div class="col-sm pt-5">
+            <a class="text-light" href="https://instagram.com/vaughanesports" target="_blank">
+              <img src="assets/ig logo-small.png" class="img-fluid" alt="Vaughan Esports Instagram Page" />
+              <h2>vaughanesports</h2>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Upcoming Events Section -->
+    <div class="text-light text-center pt-5 pb-5" id="upcoming-events">
+      <h1>Upcoming Events</h1>
+
+        <!-- container to limit horizontal line length -->
+        <div class="container">
+          <hr />
+        </div>
+
+        <!-- 2020-04-18 LCS Finals Viewing Party -->
+        <div class="container">
+          <h2>LCs Spring Finals Viewing Party</h2>
+          <h4>Sunday, April 19th @ 4pm</h4>
+          <div class="row">
+            <div class="col-sm my-auto border-right text-left">
+              <h4 class="text-center mb-4">Event Details</h4>
+                <p>
+                  Come join us in Discord as we all watch this years LCS Spring Finals together! We'll be hanging out and cheering on our favourite team!
+                </p>
+            </div>
+            <div class="col-sm">
+              <img class="img-fluid w-50"src="assets/LCS_2020_Logo.png" alt"LCS Logo" />
+            </div>
+          </div>
+        </div>
+
+        <!-- container to limit horizontal line length -->
+        <div class="container">
+          <hr />
+        </div>
+
+        <!-- 2020-04-18 MC Mondays -->
+        <div class="container">
+          <h2>Minecraft Monday's: Build Battle</h2>
+          <h4>Every Monday @ 7:00 PM EDT</h4>
+          <div class="row">
+            <div class="col-sm my-auto border-right text-left">
+              <h4 class="text-center mb-4">Event Details</h4>
+              <p>
+                Every Monday we'll be playing a different Minecraft gametype on our server at <b>mc.vaughanesports.org</b>. Just drop in and hangout for some Minecraft!
+              </p>
+              <p>
+                <b>Note:</b> If you've never played with us before, you'll need to DM Brandon on discord to get added to the whitelist.
+              </p>
+            </div>
+            <div class="col-sm">
+              <img class="img img-fluid pl-4 pt-3 pb-3" src="assets/Logo X Minecraft.png" alt="Vaughan Esports Minecraft Night" />
+            </div>
+          </div>
+        </div>
+
+        <!-- container to limit horizontal line length -->
+        <div class="container">
+          <hr />
+        </div>
+
+      </div>
+
+    <!-- Parallax Section 2 -->
+    <div id="parallax-image-2">
+      <div class="container container-fluid pt-5 pb-5">
+        <div class="row justify-content-center mt-5">
+          <div class="col-sm my-auto text-light text-center pb-3">
+            <h1>Join our community on discord!</h1>
+          </div>
+          <div class="col-sm text-center">
+            <iframe src="https://discordapp.com/widget?id=688141732507942918&theme=dark" height="500" allowtransparency="true" frameborder="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Page Footer -->
+    <footer class="bg-dark text-light pt-4 pb-4" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-4" id="footer-logo">
+            <img src="assets/Vaughan Esports Logo.png" width="300" alt="Vaughan Esports Logo">
+          </div>
+          <div class="col-sm-2" id="quick-links">
+            <h3>Quick Links</h3>
+            <hr>
+            <a href="events.html">
+              <p class="text-light">
+                Upcoming Events
+              </p>
+            <a href="https://www.notion.so/49dcbc3310d24865be720dc742eef2e7?v=1b336bec51e240d29c31a83fd7317532">
+              <p class="text-light">
+                Rules
+              </p>
+            <a href="contact.html">
+              <p class="text-light">
+                Contact Us
+              </p>
+            </a>
+            <a class="text-light" href="https://www.youtube.com/channel/UC6b9XYgwZrmA28pE6BtMJxQ" target="_blank">
+              <img src="assets/yt.png" width="32" alt="Youtube Logo"> Vaughan Esports
             </a>
             <a class="text-light" href="https://www.youtube.com/channel/UC6b9XYgwZrmA28pE6BtMJxQ" target="_blank">
               <h2>vaughanesports</h2>
@@ -122,6 +275,13 @@
           </div>
         </div>
       </div>
+    </footer>
+
+    <!-- Copyright Line -->
+    <div class="text-center text-light bg-dark pt-1 pb-1">
+      <p id="copyright">
+        &copy 2020 Vaughan Esports
+      </p>
     </div>
 
     <div class="container container-fluid text-light text-center pt-5 pb-5">
