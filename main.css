@@ -32,10 +32,6 @@ hr {
   margin-bottom: 0px;
 }
 
-#copyright {
-  margin-bottom: inherit
-}
-
 #quick-links {
   font-size: 20px;
 }
@@ -95,9 +91,5 @@ hr {
 
  #footer h3 {
    margin-top: 2em;
- }
- #footer iframe {
-   margin-top: 2em;
-   height: 500px;
  }
 }
