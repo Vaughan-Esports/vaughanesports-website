@@ -6,7 +6,7 @@ On your https://poll.ma.pe/overlay/<id>/ URL add ?customCss=https://example.com/
 Please keep the link to https://poll.ma.pe visible for a short period of time.
 */
 
-@import url(https://fonts.googleapis.com/css?family=Abel);
+@import url(https://fonts.googleapis.com/css?family=Anton);
 
 /*
 * "custom" refers to the theme assigned to the poll element
@@ -17,7 +17,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	transition: opacity 1s;
 	padding: 10px;
 
-	font-family: Abel;
+	font-family: Anton;
 
 	// Hide when not active
 	opacity: 0;
@@ -79,7 +79,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	padding: 10px;
 	color: #fff;
 	text-overflow: ellipsis;
-	background: #333;
+	background: #222;
 	padding-right: 55px;
 	padding-left: 55px;
 	font-size: 15px;
@@ -110,7 +110,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 .custom .options li .number {
 	padding: 5px 10px;
-	background: #333;
+	background: #222;
 	position: absolute;
 	top: 5px;
 	left: 10px;
