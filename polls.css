@@ -12,7 +12,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * "custom" refers to the theme assigned to the poll element
 */
 .custom {
-	background: #000;
+	background: transparent;
 	width: 400px;
 	transition: opacity 1s;
 	padding: 10px;
@@ -79,7 +79,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	padding: 10px;
 	color: #fff;
 	text-overflow: ellipsis;
-	background: #888;
+	background: #333;
 	padding-right: 55px;
 	padding-left: 55px;
 	font-size: 15px;
@@ -87,7 +87,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom .options li.question {
 	padding: 10px 20px;
 	white-space: normal;
-	background: darkgray;
+	background: 333;
 	clear: both;
 	line-height: 1.3;
 	font-size: 20px;
@@ -135,7 +135,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 * Optional outer border
 */
 .custom .border {
-	border: 5px solid red;
+	border: 5px solid #bababa;
 }
 
 
