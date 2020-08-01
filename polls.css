@@ -94,7 +94,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	position: relative;
 }
 .custom .options li.help {
-	background: #fecd19;
+	background: darkgoldenrod;
 	text-align: center;
 	overflow: hidden;
 	height: 0;
