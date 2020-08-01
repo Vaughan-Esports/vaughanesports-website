@@ -87,14 +87,14 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom .options li.question {
 	padding: 10px 20px;
 	white-space: normal;
-	background: black;
+	background: darkgray;
 	clear: both;
 	line-height: 1.3;
 	font-size: 20px;
 	position: relative;
 }
 .custom .options li.help {
-	background: brown;
+	background: #fecd19;
 	text-align: center;
 	overflow: hidden;
 	height: 0;
@@ -116,12 +116,12 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	left: 10px;
 }
 .custom .options li .bar {
-	background: #444;
+	background: white;
 	height: 5px;
 	margin-top: 5px;
 }
 .custom .options li .bar .bar-inner {
-	background: #fff;
+	background: #fecd19;
 	height: 100%;
 	width: 0;
 	transition: width 1s;
