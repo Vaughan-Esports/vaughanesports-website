@@ -53,13 +53,13 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 .custom.finished .options li,
 .custom.removing .options li {
-	opacity: 0;
+	opacity: 0.3;
 	transition: all 1s;
 }
 .custom.finished .options li.highest,
 .custom.removing .options li.highest {
 	color: #ffa;
-	opacity: 0;
+	opacity: 1;
 }
 
 .custom.finished .options li.help,
@@ -68,7 +68,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 }
 .custom.finished .metaInfo,
 .custom.removing .metaInfo {
-	opacity: 0;
+	opacity: 0.3;
 }
 .custom.active .options li.help {
 	height: 35px;
@@ -138,10 +138,9 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	border: 5px solid #bababa;
 	opacity: 1;
 }
-.custom.finished .border,
+
 .custom.removing .border {
 	opacity: 0;
-}
 
 
 .custom .credits {
