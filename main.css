@@ -17,6 +17,7 @@ hr {
 .btn-link{
     color: white !important;
     font-weight: bold !important;
+    font-size: 0.7em !important;
 }
 
 #contact-page,
