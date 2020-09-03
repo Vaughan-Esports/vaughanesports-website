@@ -10,6 +10,14 @@ hr {
   box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
 }
 
+.card-header, .card-body {
+    background-color: #484f55 !important;
+}
+
+.btn-link{
+    color: white !important;
+}
+
 #contact-page,
 #upcoming-events,
 #index-page,
@@ -54,7 +62,6 @@ hr {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 /* width */
 ::-webkit-scrollbar {
