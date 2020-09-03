@@ -56,6 +56,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	opacity: 0.3;
 	transition: all 1s;
 }
+
 .custom.finished .options li.highest,
 .custom.removing .options li.highest {
 	color: #ffa;
@@ -141,6 +142,8 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 .custom.removing .border {
 	opacity: 0;
+	transition: all 1s;
+}
 
 
 .custom .credits {
