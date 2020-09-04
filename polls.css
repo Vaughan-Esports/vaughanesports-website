@@ -28,10 +28,6 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 	opacity: 1;
 }
 
-.custom.removing {
-	opacity: 0;
-}
-
 .custom .metaInfo {
 	background: green;
 	overflow: hidden;
@@ -55,13 +51,19 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom .total {
 	margin-right: 2%;
 }
-.custom.finished .options li,
-.custom.removing .options li {
+.custom.finished .options li {
 	opacity: 0.3;
 	transition: all 1s;
 }
+.custom.removing .options li {
+	opacity: 0;
+	transition: all 1s;
+}
 
-.custom.finished .options li.highest,
+.custom.finished .options li.highest {
+	color: #ffa;
+	opacity: 1;
+}
 .custom.removing .options li.highest {
 	color: #ffa;
 	opacity: 1;
@@ -71,10 +73,13 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 .custom.removing .options li.help {
 	height: 0;
 }
-.custom.finished .metaInfo,
-.custom.removing .metaInfo {
+.custom.finished .metaInfo {
 	opacity: 0.3;
 }
+.custom.removing .metaInfo {
+	opacity: 0;
+}
+
 .custom.active .options li.help {
 	height: 35px;
 }
