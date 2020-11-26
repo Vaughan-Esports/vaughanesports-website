@@ -19,7 +19,7 @@ Please keep the link to https://poll.ma.pe visible for a short period of time.
 
 	font-family: Anton, serif;
 
-	// Hide when not active
+	/* Hide when not active */
 	opacity: 0;
 }
 
